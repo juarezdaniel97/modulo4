@@ -1,6 +1,7 @@
+import { motion } from 'framer-motion';
 import React from 'react'
 import { useState } from 'react'
-
+import { useButtonAnimation } from '../utils/animations';
 
 const Tickets = () => {
 
@@ -23,10 +24,18 @@ const Tickets = () => {
     return (
         <section id='tickets' className="py-16 bg-madera text-blanco text-center">
             <div className="max-w-4xl mx-auto px-4">
-                <h2 className="text-4xl font-Lato font-bold mb-8">¡No te lo pierdas!</h2>
+
+                {/* TITLE */}
+                <motion.h2 
+                    {...useButtonAnimation('float')}
+                    className="text-4xl font-Lato font-bold mb-6">
+                        ¡Vení a vivir lo mejor del folklore!
+                </motion.h2>
+
+                {/* CONTENT */}
                 <p className="text-xl mb-4">
                     {ticket > 0 ? "Entradas Disponibles: " : "Entradas Agotadas: "}
-                        <span className='font-bold'>{ ticket }</span>
+                        <span className='font-bold'> { ticket } <i className="bi bi-ticket-perforated-fill text-festival-gold"></i> </span>
                 </p>
                 <button
                     onClick={toogleModal}

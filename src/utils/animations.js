@@ -72,11 +72,6 @@ export const useButtonAnimation = (moveType = 'bounce') => {
             whileTap: { x: -10 },
             transition: { duration: 0.2 }
         },
-        rotate: {
-            whileHover: { rotate: 5 },
-            whileTap: { rotate: -5 },
-            transition: { duration: 0.2 }
-        },
         fade: {
             whileHover: { opacity: 0.8 },
             whileTap: { opacity: 0.5 },

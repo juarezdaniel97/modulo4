@@ -6,23 +6,13 @@
 @import "tailwindcss";
 @import "bootstrap-icons/font/bootstrap-icons.css";
 
-/* 
-    -color-terracota: #A63D40;
-    --color-ocre: #D9A441;
-    --color-oliva: #556B2F;
-    --color-crema: #F5F5DC;
-    --color-suave: #333333;
-    --color-calabaza: #E07A5F;
-    --color-madera: #8D5524;
-*/
+
 @theme {
     --color-festival-gold: #FFD700;
     --color-terracota: #A63D40;
     --color-crema: #F5F5DC;
     --color-calabaza: #E07A5F;
     --color-madera: #8D5524;
-
-
     --font-Playfair: "Playfair Display", serif;
     --font-Cinzel: "Cinzel", serif;
     --font-Lato: "Lato", serif;
