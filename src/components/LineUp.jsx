@@ -5,8 +5,9 @@ import { useButtonAnimation, useFadeAnimation } from '../utils/animations';
 
 const LineUp = () => {
     return (
-        <section id="lineup" className="py-16 bg-crema text-negro">
+        <section id="lineup" className="py-16 bg-crema text-black">
             <div className="max-w-4xl mx-auto px-4 text-center">
+                
                 {/* title */}
                 <motion.h2 className="text-2xl sm:text-4xl font-Cinzel font-bold mb-12"
                     {...useFadeAnimation('slideInLeft')}

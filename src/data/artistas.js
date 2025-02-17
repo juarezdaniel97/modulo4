@@ -14,7 +14,7 @@ export const artistas = [
     {
         nombre: "Los Tekis",
         horario: "02:15 - 04:00",
-        dia: "20 de Febrero",
+        dia: "19 de Febrero",
         imagen: "./los-tekis.jpg"
     },
     {
