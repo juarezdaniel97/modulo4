@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@200,200..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Inconsolata:wdth,wght@200,200..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Inconsolata:wdth,wght@200,200..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Inconsolata:wdth,wght@200,200..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Dancing+Script:wght@400..700&family=Inconsolata:wdth,wght@200,200..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rock+Salt&display=swap');
+@import "tailwindcss";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+/* 
+    -color-terracota: #A63D40;
+    --color-ocre: #D9A441;
+    --color-oliva: #556B2F;
+    --color-crema: #F5F5DC;
+    --color-suave: #333333;
+    --color-calabaza: #E07A5F;
+    --color-madera: #8D5524;
+*/
+@theme {
+    --color-festival-gold: #FFD700;
+    --color-festival-blue: #0047AB;
+    --color-festival-light-blue: #007FFF;
+    --color-negro: #000000; 
+    --color-blanco: #FFFFFF;
+
+
+    --color-terracota: #A63D40;
+    --color-ocre: #D9A441;
+    --color-oliva: #556B2F;
+    --color-crema: #F5F5DC;
+    --color-suave: #333333;
+    --color-calabaza: #E07A5F;
+    --color-madera: #8D5524;
+
+
+    --font-Playfair: "Playfair Display", serif;
+    --font-Cinzel: "Cinzel", serif;
+    --font-Lato: "Lato", serif;
+    --font-Montserrat: "Montserrat", serif;
+    --font-Dancing: "Dancing Scrip", serif;
+} 
