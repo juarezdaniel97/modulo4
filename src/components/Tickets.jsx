@@ -37,6 +37,7 @@ const Tickets = () => {
                     {ticket > 0 ? "Entradas Disponibles: " : "Entradas Agotadas: "}
                         <span className='font-bold'> { ticket } <i className="bi bi-ticket-perforated-fill text-festival-gold"></i> </span>
                 </p>
+
                 <button
                     onClick={toogleModal}
                     disabled= {ticket === 0}
@@ -50,7 +51,7 @@ const Tickets = () => {
                     
                     <div className=" flex inset-0 justify-center items-center mt-4">
                             <div className="bg-crema text-black p-6 rounded-lg shadow-lg max-w-md">
-                                <h2 className="text-xl font-semibold mb-4">Reserva tus tikets</h2>
+                                <h2 className="text-xl font-semibold mb-4">Reservá tus tikets</h2>
                                 <form>
                                     <div className="mb-4">
                                         <input

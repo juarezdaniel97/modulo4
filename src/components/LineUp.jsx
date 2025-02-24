@@ -29,9 +29,9 @@ const LineUp = () => {
                             className="w-full h-60 object-cover"
                             />
                             <div className="p-4">
-                            <h3 className="text-2xl font-Lato font-bold">{artista.nombre}</h3>
-                            <p className="mt-2 text-madera">{artista.horario}</p>
-                            <p className="text-calabaza">{artista.dia}</p>
+                                <h3 className="text-2xl font-Lato font-bold">{artista.nombre}</h3>
+                                <p className="mt-2 text-madera">{artista.horario}</p>
+                                <p className="text-calabaza">{artista.dia}</p>
                             </div>
                         </motion.div>
                     ))}
